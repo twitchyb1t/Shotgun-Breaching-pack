@@ -1,11 +1,9 @@
-To add another shotgun to this addon follow the following steps
+#twitchyb1t's Door Breaching Pack
 
-duplicate one of these files and name it to a desired weapon (any weapon base works fas, cw2, css, hl2 even.
+This addon allows you to break down doors, they will respawn after a period of time defined by you.
 
-once you have duplicated the file, rename it to "custom-shotgun"
-
-inside the file we have the following
-
+## Customization
+To add another breaching weapon to the pack, duplicate the file and give it a different name, this works with any desired weapon (FA:S 2, CW2, CS:S, HL2 and pretty much any other pack). Once you have duplicated this file, name it "custom-shotgun", the file should contain the following.
 ```
 
 function DeployConvars()
