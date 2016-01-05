@@ -5,9 +5,8 @@ duplicate one of these files and name it to a desired weapon (any weapon base wo
 once you have duplicated the file, rename it to "custom-shotgun"
 
 inside the file we have the following
---[[-------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------]]
 
+```
 
 function DeployConvars()
 	CreateConVar("knacken_blast",1)
@@ -70,3 +69,4 @@ end
 
 hook.Add("EntityTakeDamage","SchlossKnackensShotgun",DoorKnacken)
 hook.Add("Initialize","DeployConvars",DeployConvars)
+```
